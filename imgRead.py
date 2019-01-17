@@ -10,4 +10,6 @@ cv2.namedWindow("Image",cv2.WINDOW_NORMAL)
 #Image display and pop up wait function.
 cv2.imshow("Image",img)
 cv2.waitKey(0)
+
+#kills the window(s)
 cv2.destroyAllWindows()
