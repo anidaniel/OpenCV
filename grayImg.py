@@ -1,10 +1,9 @@
-'''Loading an image (of me :P ),
-    into and displaying into a created window'''
+'''Loading image into grayscale mode'''
 import numpy as np 
-import cv2 
+import cv2
 
 #Image read and saving into 'img' variable
-img = cv2.imread("download.jpg")
+img = cv2.imread("download.jpg",0)
 
 #Py supported window for image
 cv2.namedWindow("Image",cv2.WINDOW_NORMAL)
