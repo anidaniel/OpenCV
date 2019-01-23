@@ -64,6 +64,6 @@ array([[[255, 255, 255],
 225
 >>> len(img[0][0]) #Returns color ratio
 3
->>> img.shape  #This returns (VPixels,HPixels,Color )
+>>> img.shape  #This returns (HRows,Columns,Color )
 (225, 225, 3) ''' 
 
