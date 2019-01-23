@@ -39,3 +39,12 @@ print(color3[0,0,:])
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+''' CODE RUN : 
+    D:\Projects\OpenCV> python .\ImgData_struc.py
+        [0]
+        [1 1 1]
+        [65535 65535 65535]
+        [255   0   0]
+        [  0 255   0]
+        [  0   0 255] '''
