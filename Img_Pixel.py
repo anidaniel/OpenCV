@@ -67,5 +67,16 @@ array([[[255, 255, 255],
 >>> img.shape  #This returns (HRows,Columns,Color )
 (225, 225, 3) 
 >>> img.dtype 
-dtype('uint8') #Tells us 2**8 or 256 in each pixel ''' 
-
+dtype('uint8') #Tells us 2**8 or 256 in each pixel 
+>>> img[10, 5]
+array([255, 255, 255], dtype=uint8) #[RGB] 
+>>> img[:,:,0]      #Single RGB pixel 
+array([[255, 255, 255, ..., 255, 255, 255],
+       [255, 255, 255, ..., 255, 255, 255],
+       [255, 255, 255, ..., 255, 255, 255],
+       ...,
+       [255, 255, 255, ..., 255, 255, 255],
+       [255, 255, 255, ..., 255, 255, 255],
+       [255, 255, 255, ..., 255, 255, 255]], dtype=uint8) 
+>>> img.size #Total Pixel size
+151875 ''' 
